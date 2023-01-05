@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sjcet.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Open"
+        android:onClick="open"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="101"
+        android:title="Share"
+        android:onClick="share"/>
+    <item
+        android:orderInCategory="102"
+        android:title="Delete"
+        android:onClick="Delete"/>
+    <item
+        android:onClick="sech"
+        android:orderInCategory="103"
+        android:title="Search" />
+    <item
+        android:onClick="settng"
+        android:orderInCategory="104"
+        android:title="Settings" />
+</menu>
